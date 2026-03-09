@@ -1,0 +1,37 @@
+# Binaries
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+
+# Object files
+*.o
+*.obj
+*.cuo
+
+# Build directories
+/build/
+/bin/
+/Debug/
+/Release/
+/x64/
+/x86/
+
+# IDE files
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+
+# CUDA specific
+*.cubin
+*.fatbin
+*.ptx
+*.cudart
+
+# Temp files
+*.tmp
+*.log
+*.cache
