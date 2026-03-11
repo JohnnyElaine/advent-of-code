@@ -25,12 +25,6 @@
 *.user
 *.suo
 
-# CUDA specific
-*.cubin
-*.fatbin
-*.ptx
-*.cudart
-
 # Temp files
 *.tmp
 *.log
