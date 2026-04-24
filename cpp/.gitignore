@@ -5,27 +5,25 @@
 *.so
 *.dylib
 
+# clangd LPS
+**/.cache/
+.clangd
+compile_commands.json
+
 # Object files
 *.o
 *.obj
 *.cuo
 
 # Build directories
-/build/
-/bin/
-/Debug/
-/Release/
-/x64/
-/x86/
+**/build/
+**/bin/
 
-# IDE files
-.vs/
-.idea/
-.vscode/
-*.user
-*.suo
+# editor directores
+**/.zed/
+
+# editor files
+.zed
 
 # Temp files
-*.tmp
-*.log
 *.cache

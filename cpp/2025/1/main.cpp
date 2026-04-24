@@ -64,7 +64,7 @@ int solve_part_2(char *filename) {
 int main(int argc, char **argv) {
 	char *filename = argv[1];
 	int solution1 = solve_part_1(filename);
-	cout << "Part 1: " << solution1 << "\n";
+	cout << "Part 1: " << solution1 << '\n';
 	int solution2 = solve_part_2(filename);
 	cout << "Part 2: " << solution2 << endl;
 	return 0;
