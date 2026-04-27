@@ -28,5 +28,5 @@ int main(int argc, char *argv[])
 	long solution2 = part2Validator.solve(filestream);
 	std::cout << "Part 2: " << solution2 << std::endl;
 
-  return 0;
+	return 0;
 }

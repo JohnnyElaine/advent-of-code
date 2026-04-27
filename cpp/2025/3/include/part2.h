@@ -3,6 +3,6 @@
 
 #include <stdio.h>
 
-long long solve2(FILE *fptr, int num_digits_line);
+long long solve2(FILE *fptr, int num_jolts_per_line);
 
 #endif
