@@ -1,5 +1,6 @@
 #include "part1.h"
 #include "part2.h"
+#include <cstdio>
 
 #define NUM_DIGITS_PER_LINE 100
 
@@ -19,5 +20,6 @@ int main(int argc, char *argv[]) {
     long long solution2 = solve2(input_fileptr, NUM_DIGITS_PER_LINE);
     printf("part 2 solution: %lld\n", solution2);
 
+    fclose(input_fileptr);
     return 0;
 }
