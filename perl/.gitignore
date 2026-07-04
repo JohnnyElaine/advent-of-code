@@ -1,0 +1,11 @@
+# AoC puzzle inputs
+input.txt
+input_test.txt
+test_input.txt
+
+# editor directores
+**/.zed/
+
+# editor files
+.zed
+
