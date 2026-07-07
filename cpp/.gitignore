@@ -1,5 +1,8 @@
 # AoC puzzle inputs
 input.txt
+# AoC puzzle test inputs
+input_test.txt
+test_input.txt
 
 # Binaries
 *.exe

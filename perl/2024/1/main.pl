@@ -31,7 +31,7 @@ say "Part 1: $sum1";
 my %right_freq;
 
 for my $num (@right) {
-    $right_freq{$num}++;
+    ++$right_freq{$num};
 }
 
 my $sum2 = sum map { $_ * ($right_freq{$_} // 0) } @left;
